@@ -1,8 +1,8 @@
-import turtle       # allows us to use the turtles library
+import turtle               # allows us to use the turtles library
 
 
 window = turtle.Screen()    # creates a graphics window
-bradley = turtle.Turtle()  # create a turtle named bradley
+bradley = turtle.Turtle()   # create a turtle named bradley
 
 # Exit when you click the turtle graphics window
 def exit ():
