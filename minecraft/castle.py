@@ -26,6 +26,7 @@ def buildWalls(minecraft, startPos, length, height, blockID):
         buildColumn(minecraft, startPos.x+length-i-offset-1, startPos.y, startPos.z+length-1-offset, currentHeight, blockID)
         buildColumn(minecraft, startPos.x+length-offset-1, startPos.y, startPos.z+length-offset-i-1, currentHeight, blockID)
 
+'''
 def buildGate(minecraft, startPos, length, height, blockID):
     offset = height/2
     gateHeight = height*2/3
@@ -34,6 +35,7 @@ def buildGate(minecraft, startPos, length, height, blockID):
                         startPos.x, startPos.y+gateHeight, startPos.z+middle+1, blockID)
     minecraft.setBlocks(startPos.x+offset, startPos.y, startPos.z+middle-2,
                         startPos.x+offset, startPos.y+gateHeight, startPos.z+middle+1, blockID)
+'''
 
 def buildWalkways(minecraft, startPos, length, height, blockID):
     offset = height/2
@@ -94,6 +96,7 @@ def clean(minecraft, startPos, length, height):
     buildWalkways(minecraft, startPos, length, height, 0)
     buildKeep(minecraft, startPos, length, height, 0)
     buildKeepFloors(minecraft, startPos, length, height, 0)
+    fixLandscape(minecraft, startPos, length, height, 0)
 
 '''Create the function buildGate(minecraft, startPos, length, height, blockID):'
     below here!'''
