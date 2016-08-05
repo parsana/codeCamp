@@ -1,25 +1,33 @@
 # codeCamp
 
-## following steps to clone and start tutorial
-## $export GIT_SSL_NO_VERIFY=1
-## git clone git@github.com/parsana/codeCamp.git
+---------------------
+---------------------
+---------------------
+
+# following steps to clone and start tutorial
+
+1. $export GIT_SSL_NO_VERIFY=1
+2. git clone git@github.com/parsana/codeCamp.git
+
+---------------------
+---------------------
+---------------------
 
 ## Part 1
-## $idle3 intro/intro.py
+
+1. $idle3 intro/intro.py
 
 ## Part 2
-## Install the packages you'll need:
-## $sudo pip3 install twython
-## Test you have everything you need by entering the following commands:
-## $python3 -c "import twython"
-## https://www.raspberrypi.org/learning/getting-started-with-the-twitter-api/worksheet/
-## The files you need will be in the twitter directory
+1. Install the packages you'll need:
+  1.$sudo pip3 install twython
+2. Test you have everything you need by entering the following commands:
+  1. $python3 -c "import twython"
+3. https://www.raspberrypi.org/learning/getting-started-with-the-twitter-api/worksheet/
+  1. The files you need will be in the twitter directory
 
 ---------------------
 ---------------------
 ---------------------
-
-
 
 # Setup on reboot
 
@@ -42,5 +50,11 @@ def exit ():
   window.exitonclick()
 ```
 
+# Resources
 
+1. [Official Raspberry Pi help guide](https://www.raspberrypi.org/help/)
+2. [Official Raspberry Pi tutorials](https://www.raspberrypi.org/resources/)
+3. [Turtle Documentation](https://docs.python.org/2/library/turtle.html)
+4. [Minecraft Pi getting started](https://www.raspberrypi.org/learning/getting-started-with-minecraft-pi/)
+5. [Minecraft Pi API](http://www.stuffaboutcode.com/p/minecraft-api-reference.html)
 
