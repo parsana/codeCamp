@@ -1,8 +1,8 @@
 def fixLandscape(minecraft, pos, length, height, blockID):
-    minecraft.setBlocks(pos.x-20, pos.y, pos.z-20,
-                        pos.x+length+15, pos.y+255, pos.z+length+15, 0)
-    minecraft.setBlocks(pos.x-20, pos.y-1, pos.z-20,
-                        pos.x+length+15, pos.y-10, pos.z+length+15, blockID)
+    minecraft.setBlocks(pos.x-10, pos.y, pos.z-10,
+                        pos.x+length+10, pos.y+255, pos.z+length+10, 0)
+    minecraft.setBlocks(pos.x-10, pos.y-1, pos.z-10,
+                        pos.x+length+10, pos.y-10, pos.z+length+10, blockID)
                         
 def buildColumn(minecraft, x, y, z, height, blockID):
     for i in range(height):
@@ -94,6 +94,8 @@ def clean(minecraft, startPos, length, height):
     buildWalkways(minecraft, startPos, length, height, 0)
     buildKeep(minecraft, startPos, length, height, 0)
     buildKeepFloors(minecraft, startPos, length, height, 0)
-    fixLandscape(minecraft, startPos, length, height, 0)
+
+'''Create the function buildGate(minecraft, startPos, length, height, blockID):'
+    below here!'''
 
     

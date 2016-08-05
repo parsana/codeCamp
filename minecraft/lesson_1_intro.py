@@ -61,7 +61,26 @@ z = position.z
 #mc.setBlocks(x, y, z, x+_, y+_, z+_, stoneBlock)
 
 ################ TASK 6 ####################
+'''We can use the loops we learned yesterday to create blocks as we walk. Use the
+    'getBlock(x, y, z)' function to find out what block is at that point. Lets
+    try to create a flower on every grass block as we walk around.'''
+#grass = 2
+#flower = 38
+#while True:
+#    x, y, z = mc.player.getPos()
+#    #How can we find the block directly below the player?
+#    blockBelow = mc.getBlock(x, y-?, z)
+#    if blockBelow == grass:
+#        #replace pass with the minecraft function that will create a flower.
+#        pass
+#    sleep(0.1)
 
+################ TASK 7 ####################
+''' Final task! Copy the complete code from the previous task above, and add an 'else' statement.
+    This else should create a piece of grass below us if we arent standing on grass, then
+    create a flower on top of the grass, so no matter where we are, we can plant flowers
+    as we walk. If you aren't sure how to use an else, try googling 'python if else' and read
+    some results!'''
 
 
 

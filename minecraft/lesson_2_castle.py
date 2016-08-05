@@ -8,7 +8,6 @@ from time import sleep
     will use to create our castle. Write the line of code that will let us use
     the 'castle' library below. You can look above, or at code from yesterday
     if you cant remember how.'''
-import castle
 
 
 ############### TASK 2 #####################
@@ -39,9 +38,9 @@ import castle
     minecraft game like in the first lesson, and get the players position. Finish
     the variable assignment of position. Hint: how did we get player position in the
     last lesson'''
-mc = Minecraft.create()
-mc.postToChat("Let's build a castle!")
-position = mc.player.getPos()
+#mc = Minecraft.create()
+#mc.postToChat("Let's build a castle!")
+#position = 
 
 
 ############### TASK 4 #####################
@@ -49,20 +48,20 @@ position = mc.player.getPos()
     and other things. You can make the blocks whatever youd like, though I'd
     recommend using stone brick for the walls, and wood for walkways and floors.
     try googling 'raspberry pi minecraft block id' to find the block id numbers'''
-walls = 98
-floors = 5
-grass = 2
-gate = 0
+#walls = 
+#floors = 
+#grass = 2
+#gate = 0
 
 ############### TASK 5 #####################
 ''' Okay, we're ready to start building! I've written the command to flatten the
     ground where our castle will go below. You'll need to write out the rest of
     the functions out. They all take the same'''
-castleHeight = 6
-castleLength = 30
-position.x = position.x+1
+#castleHeight = 6
+#castleLength = 30
+#position.x = position.x+1
 
-castle.fixLandscape(mc, position, castleLength, castleHeight, grass)
+#castle.fixLandscape(mc, position, castleLength, castleHeight, grass)
 
 ''' The other functions you will need to use are:
     castle.buildWalls(?, ?, ?, ?, ?)
@@ -71,17 +70,13 @@ castle.fixLandscape(mc, position, castleLength, castleHeight, grass)
     castle.buildKeep(?, ?, ?, ?, ?)
     castle.buildKeepFloors(?, ?, ?, ?, ?)
     Add them below!'''
-castle.buildWalls(mc, position, castleLength, castleHeight, walls)
-castle.buildWalkways(mc, position, castleLength, castleHeight, floors)
-castle.buildGate(mc, position, castleLength, castleHeight, gate)
-castle.buildKeep(mc, position, castleLength, castleHeight, walls)
-castle.buildKeepFloors(mc, position, castleLength, castleHeight, floors)
+
 
 ############### TASK 6 #####################
 ''' We end up with a lot of castles floating around if we dont destroy them. The
     castle library has a 'clean' function that will erase the castle and landscape.
     We should clean up our castle after some time, like a minute. We can use the
     'sleep' function to wait for the give number of seconds before we clean up.'''
-wait = 60
-sleep(wait)
-castle.clean(mc, position, castleLength, castleHeight)
+#wait = 
+#sleep(wait)
+#castle.clean(mc, position, castleLength, castleHeight)
