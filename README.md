@@ -1,5 +1,12 @@
 # codeCamp
 
+##Contact Info:
+- Parsana Pillay - Parsana_Pillay@intuit.com
+- Garry Bullock - Garry_Bullock@intuit.com
+- Jasmine Woo - Jasmine_Woo@intuit.com
+- Twitter link - https://twitter.com/PFPillay
+
+
 ---------------------
 ---------------------
 ---------------------
